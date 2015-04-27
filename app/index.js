@@ -54,6 +54,7 @@ JSkeletonGenerator.prototype.scaffolding = function welcome() {
 
 JSkeletonGenerator.prototype.setupEnv = function welcome() {
     this.copy('.editorconfig');
+    this.copy('.npmrc');
     this.copy('gitignore', '.gitignore');
 };
 
