@@ -1,0 +1,42 @@
+{
+    "name": "<%- appName %>",
+    "version": "0.0.1",
+    "description": "",
+    "main": "lib/main.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:bq/<%- appName %>.git"
+    },
+    "authors": [
+        "front-end bq <front-end@bq.com>"
+    ],
+    "ignore": [
+        "bower_components",
+        "node_modules",
+        ".tmp",
+        "*.log",
+        ".DS_Store",
+        ".idea",
+        ".gitignore",
+        ".travis.yml",
+        ".editorconfig"
+    ],
+    "keywords": [
+        "penguin",
+        "backbone",
+        "marionette",
+        "jquery",
+        "javascript",
+        "jskeleton",
+        "css",
+        "html5",
+        "sass"
+    ],
+    "devDependencies": {
+        "grunt": "0.4.5"
+    },
+    "engines": {
+        "node": ">=0.10.0",
+        "npm": ">=1.3.7"
+    }
+}

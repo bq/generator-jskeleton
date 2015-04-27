@@ -1,0 +1,97 @@
+/*------------------------------------*\
+    #FORM-THEME
+\*------------------------------------*/
+
+.form {
+
+    fieldset {
+
+        legend {
+            // font-weight: bold;
+            // margin-bottom: $input-margin-bottom;
+        }
+
+    }
+
+    .warn {
+        // color: $input-warn-color;
+        // background-color: $input-warn-bg-color;
+        // border-color: $input-warn-border-color;
+    }
+
+}
+
+    .form-control {
+        margin-bottom: $input-margin-bottom;
+    }
+
+    .form-control--inline {
+        margin-right: $input-margin-bottom;
+    }
+
+
+    .input {
+
+        @include inputs {
+            // font-size: $input-font-size;
+            // background: $input-bg-color;
+            // border-radius: $input-border-radius;
+            // color: $input-color;
+            // border: $input-border;
+            // padding: $input-padding;
+            // @include transition (all 0.6s);
+
+            &:focus {
+                // color: $input-color-focus;
+                // border-color: $input-border-color-focus;
+                // background-color: $input-bg-color-focus;
+            }
+        }
+
+        select:not([multiple]) {
+            // height: ($input-padding + $input-padding) * 2;
+            // padding-top: 0;
+            // padding-bottom: 0;
+        }
+
+    }
+
+
+    .input--radio,
+    .input--checkbox {
+
+        input {
+            // border: none;
+        }
+
+    }
+
+    .input--icon {
+
+        @include inputs {
+
+            // @if $input-icon-position == 'left' {
+            //     padding-left: $input-padding * 4;
+            // }
+            // @else if $input-icon-position == 'right' {
+            //     padding-right: $input-padding * 4;
+            // }
+            // @else {
+            //     @warn "Invalid value. You must specify 'left' or 'right'";
+            // }
+
+        }
+
+        .icon {
+            // @if $input-icon-position == 'left' {
+            //     left: $input-padding;
+            // }
+            // @else if $input-icon-position == 'right' {
+            //     right: $input-padding;
+            // }
+            // @else {
+            //     @warn "Invalid value. You must specify 'left' or 'right'";
+            // }
+        }
+
+    }
