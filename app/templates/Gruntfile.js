@@ -14,12 +14,12 @@
 module.exports = function(grunt) {
 
     // Init main modular gruntfile and return the tasks
-    // require('grunt-jskeleton')(grunt);
+    require('grunt-jskeleton')(grunt);
 
     grunt.config.merge({
         // Include here your plugins configuration
     });
 
-    // Tasks
+    // Custom tasks
     // grunt.registerTask('task-name', []);
 };

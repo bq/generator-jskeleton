@@ -2,7 +2,7 @@
     "name": "<%- appName %>",
     "version": "0.0.1",
     "description": "",
-    "main": "lib/main.js",
+    "main": "dist/index.html",
     "repository": {
         "type": "git",
         "url": "git@github.com:bq/<%- appName %>.git"
@@ -19,7 +19,8 @@
         ".editorconfig"
     ],
     "dependencies": {
-        "penguin": "master"
+        "penguin": "master",
+        "fastclick": ">=1.0.6"
     },
     "authors": [
         "front-end bq <front-end@bq.com>"
