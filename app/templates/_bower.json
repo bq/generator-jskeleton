@@ -20,7 +20,7 @@
     ],
     "dependencies": {
         "penguin": "master",
-        "fastclick": ">=1.0.6"
+        "fastclick": "^1.0.6"
     },
     "authors": [
         "front-end bq <front-end@bq.com>"
