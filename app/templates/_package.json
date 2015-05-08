@@ -33,7 +33,10 @@
         "sass"
     ],
     "devDependencies": {
-        "grunt-jskeleton": "^0.0.2"
+        "grunt-jskeleton": "^0.0.2",
+        "chromedriver": "^2.15.0",
+        "phantomjs": "^1.9.16",
+        "selenium-standalone": "2.39.0-2.9.0"
     },
     "engines": {
         "node": "^0.10.0",
