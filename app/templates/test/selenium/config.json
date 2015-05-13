@@ -32,7 +32,7 @@
             }
         },
 
-        "saucelabs": {
+        "saucelabs-w8-c42": {
             "selenium_host": "ondemand.saucelabs.com",
             "selenium_port": 80,
             "username": "${SAUCE_USERNAME}",
@@ -46,7 +46,9 @@
             },
             "desiredCapabilities": {
                 "name": "test-example",
-                "browserName": "chrome"
+                "browserName": "chrome",
+                "version": "42",
+                "platform": "Windows 8"
             },
             "selenium": {
                 "start_process": false
